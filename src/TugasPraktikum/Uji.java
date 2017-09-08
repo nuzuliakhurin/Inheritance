@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Latihan1;
+package TugasPraktikum;
 
 /**
  *
  * @author SMK TELKOM
  */
-public class TestPertamaKedua {
-    
-    public static void main (String[] args)
-    {
-    Kedua D2 = new Kedua ();
-    D2.BacaSuper ();
-    D2.info ();
-    
-    Pertama S1 = new Pertama ();
-    S1.info ();
+public class Uji {
+    public static void main(String[] args){
+        Induk a = new Induk();
+        Turunan b = new Turunan();
+        
+        a.test();
+        b.test();
+        b.test("Nuzulia");
     }
 }
